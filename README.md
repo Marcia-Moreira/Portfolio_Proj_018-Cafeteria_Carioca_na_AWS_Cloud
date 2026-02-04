@@ -15,12 +15,17 @@ Projeto acadêmico com foco em **Cloud Computing**, demonstrando a hospedagem de
 
 ## 🌐 Site publicado (versão permanente)
 
-Como os ambientes de laboratório da AWS são temporários, o site também está publicado de forma permanente via **GitHub Pages**:
+Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteria Carioca** também está disponível em uma versão permanente publicada via **GitHub Pages**.
 
-🔗 **https://SEU-USUARIO.github.io/cafeteria-carioca/**
+🔗 **Site online (GitHub Pages):**  
+https://SEU-USUARIO.github.io/cafeteria-carioca/
 
-> Essa versão representa o mesmo site utilizado no laboratório S3.
+🔗 **Repositório do front-end (código-fonte):**  
+https://github.com/SEU-USUARIO/cafeteria-carioca
 
+> O site publicado no GitHub Pages é o mesmo utilizado como base nos laboratórios da AWS (Amazon S3 – Static Website Hosting).  
+>  
+> Este repositório tem como objetivo **documentar o uso de serviços da AWS em ambiente de laboratório**, apresentando evidências, prints e explicações técnicas, e não versionar o código do front-end.
 ---
 
 ## 📌 Visão geral do projeto
@@ -197,3 +202,17 @@ Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud comp
 **Marcinha**  
 Desenvolvedora Web  
 Projeto desenvolvido para estudos em Cloud Computing / AWS
+
+
+cafeteria-carioca-aws/
+│
+├── README.md
+│
+├── prints/
+│   ├── fase-1-s3/
+│   ├── fase-2-vpc/
+│   ├── fase-3-iam/
+│   └── fase-4-monitoring/
+│
+└── gifs/
+    └── s3-site-demo.gif
