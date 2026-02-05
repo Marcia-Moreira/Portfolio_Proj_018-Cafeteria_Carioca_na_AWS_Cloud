@@ -2,7 +2,6 @@
 
 Portfolio_Proj_018-Cafeteria_Carioca_na_AWS_Cloud
 
-
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
 ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-Storage-green?logo=amazons3)
 ![VPC](https://img.shields.io/badge/Amazon%20VPC-Network-blue?logo=amazonaws)
@@ -17,14 +16,15 @@ Projeto acadêmico com foco em **Cloud Computing**, demonstrando a hospedagem de
 
 Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteria Carioca** também está disponível em uma versão permanente publicada via **GitHub Pages**.
 
-🔗 **Site online (GitHub Pages):**  
-https://SEU-USUARIO.github.io/cafeteria-carioca/
+🔗 **Site online (GitHub Pages):**
+🔗 [https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/]
+https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/
 
 🔗 **Repositório do front-end (código-fonte):**  
-https://github.com/SEU-USUARIO/cafeteria-carioca
+https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca
 
 > O site publicado no GitHub Pages é o mesmo utilizado como base nos laboratórios da AWS (Amazon S3 – Static Website Hosting).  
->  
+>
 > Este repositório tem como objetivo **documentar o uso de serviços da AWS em ambiente de laboratório**, apresentando evidências, prints e explicações técnicas, e não versionar o código do front-end.
 ---
 
@@ -43,12 +43,15 @@ O projeto está organizado em **fases**, onde cada fase apresenta um serviço ou
 ![Amazon S3](https://img.shields.io/badge/Service-Amazon%20S3-green?logo=amazons3)
 
 ### 🎯 Objetivo
+
 Hospedar o site institucional da Cafeteria Carioca de forma simples, escalável e sem necessidade de servidor.
 
 ### 🔧 Serviço utilizado
+
 - Amazon S3 (Simple Storage Service)
 
 ### 🛠️ O que foi feito
+
 - Criação de um bucket S3
 - Upload dos arquivos HTML, CSS e imagens do site
 - Ativação do **Static Website Hosting**
@@ -56,6 +59,7 @@ Hospedar o site institucional da Cafeteria Carioca de forma simples, escalável 
 - Acesso ao site via URL pública do S3
 
 ### ✅ Resultado
+
 O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 ### 📸 Evidências
@@ -63,26 +67,26 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 **Bucket S3 criado**
 
 [INSERIR PRINT DO BUCKET AQUI]
-
+<p align="center">
+  <img src="prints/fase-1-s3/bucket-criado.png" width="30%">
+  <img src="prints/fase-1-s3/bucket-carregar_objetos.png" width="30%">
+  <img src="prints/fase-1-s3/navegador-site_statico_cafeteria_rodando.png" width="30%">
+</p>
 
 **Configuração de Static Website Hosting**
 
 [INSERIR PRINT DA CONFIGURAÇÃO AQUI]
 
-
 **Site funcionando via URL do S3**
-
 
 [INSERIR PRINT DO SITE NO NAVEGADOR]
 
-
 **Demonstração em vídeo / GIF**
-
 
 [INSERIR GIF OU LINK PARA VÍDEO]
 
-
 ### 💡 Por que usar S3?
+
 - Alta disponibilidade
 - Baixo custo
 - Escalabilidade automática
@@ -95,26 +99,29 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 ![Amazon VPC](https://img.shields.io/badge/Service-Amazon%20VPC-blue?logo=amazonaws)
 
 ### 🎯 Objetivo
+
 Compreender como a AWS organiza recursos dentro de redes privadas e seguras.
 
 ### 🔧 Serviço explorado
+
 - Amazon VPC (Virtual Private Cloud)
 
 ### 🛠️ O que foi feito
+
 - Criação de uma VPC com nome relacionado ao projeto
 - Análise dos componentes básicos da VPC
 
 ### 🔗 Relação com o projeto
+
 Em um cenário real, a VPC seria utilizada para:
+
 - Hospedar servidores EC2
 - Isolar banco de dados
 - Controlar tráfego de entrada e saída
 
 ### 📸 Evidências
 
-
 [INSERIR PRINT DA VPC CRIADA]
-
 
 ---
 
@@ -123,27 +130,30 @@ Em um cenário real, a VPC seria utilizada para:
 ![IAM](https://img.shields.io/badge/Service-IAM-red?logo=amazonaws)
 
 ### 🎯 Objetivo
+
 Entender como a AWS controla acesso a recursos e serviços.
 
 ### 🔧 Serviço explorado
+
 - AWS Identity and Access Management (IAM)
 
 ### 📘 Conceitos aplicados
+
 - Usuários e permissões
 - Políticas de acesso
 - Princípio do menor privilégio
 
 ### 🔗 Relação com o projeto
+
 No contexto da Cafeteria Carioca:
+
 - Apenas usuários autorizados poderiam alterar o site
 - Permissões seriam separadas por função
 - Recursos críticos seriam protegidos
 
 ### 📸 Evidências
 
-
 [INSERIR PRINTS DO IAM]
-
 
 ---
 
@@ -152,21 +162,22 @@ No contexto da Cafeteria Carioca:
 ![CloudTrail](https://img.shields.io/badge/Service-CloudTrail-lightgrey?logo=amazonaws)
 
 ### 🎯 Objetivo
+
 Compreender como ações na AWS podem ser monitoradas e auditadas.
 
 ### 🔧 Serviço explorado
+
 - AWS CloudTrail (conceitual)
 
 ### 📘 Aplicação prática
+
 - Registro de acessos ao S3
 - Auditoria de mudanças no ambiente
 - Suporte a requisitos de segurança
 
 ### 📸 Evidências
 
-
 [INSERIR PRINTS DE TELAS RELACIONADAS]
-
 
 ---
 
@@ -202,7 +213,6 @@ Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud comp
 **Marcinha**  
 Desenvolvedora Web  
 Projeto desenvolvido para estudos em Cloud Computing / AWS
-
 
 cafeteria-carioca-aws/
 │
