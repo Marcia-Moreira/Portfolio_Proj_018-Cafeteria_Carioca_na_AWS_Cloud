@@ -52,7 +52,7 @@ Hospedar o site institucional da Cafeteria Carioca de forma simples, escalável 
 ### 🛠️ O que foi feito
 
 - Criação de um bucket S3
-- Upload dos arquivos HTML, CSS e imagens do site
+- Upload dos arquivos HTML, CSS, JavaScript e imagens do site
 - Ativação do **Static Website Hosting**
 - Configuração de permissões públicas de leitura
 - Acesso ao site via URL pública do S3
@@ -82,8 +82,8 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 **Demonstração em vídeo / GIF**
 
-[INSERIR GIF OU LINK PARA VÍDEO]
-![Demonstração do site estático no S3](gifs/s3-site-demo_cafeteria_carioca_01.gif)
+<!-- [INSERIR GIF OU LINK PARA VÍDEO] -->
+<!-- ![Demonstração do site estático no S3](gifs/s3-site-demo_cafeteria_carioca_01.gif) -->
 
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
