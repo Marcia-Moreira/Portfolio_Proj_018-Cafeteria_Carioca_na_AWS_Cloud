@@ -1,4 +1,4 @@
-# ☕ Cafeteria Carioca na AWS
+# ☕ Cafeteria Carioca na AWS Cloud
 
 Portfolio_Proj_018-Cafeteria_Carioca_na_AWS_Cloud
 
@@ -17,15 +17,14 @@ Projeto acadêmico com foco em **Cloud Computing**, demonstrando a hospedagem de
 Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteria Carioca** também está disponível em uma versão permanente publicada via **GitHub Pages**.
 
 🔗 **Site online (GitHub Pages):**
-🔗 [https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/]
 https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/
 
 🔗 **Repositório do front-end (código-fonte):**  
 https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca
 
-> O site publicado no GitHub Pages é o mesmo utilizado como base nos laboratórios da AWS (Amazon S3 – Static Website Hosting).  
+> Esta versão permanente representa o mesmo site utilizado nos laboratórios da AWS (Amazon S3 – Static Website Hosting).  
 >
-> Este repositório tem como objetivo **documentar o uso de serviços da AWS em ambiente de laboratório**, apresentando evidências, prints e explicações técnicas, e não versionar o código do front-end.
+> Este repositório tem como objetivo **documentar o uso de serviços da AWS em ambiente de laboratório**, por meio de prints, evidências e explicações técnicas, não sendo responsável pelo versionamento do código do front-end.
 ---
 
 ## 📌 Visão geral do projeto
@@ -84,6 +83,15 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 **Demonstração em vídeo / GIF**
 
 [INSERIR GIF OU LINK PARA VÍDEO]
+![Demonstração do site estático no S3](gifs/s3-site-demo_cafeteria_carioca_01.gif)
+
+<p align="center">
+  <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
+</p>
+
+<p align="center">
+  <img src="gifs/s3-site-demo_cafeteria_carioca_02.gif" width="70%">
+</p>
 
 ### 💡 Por que usar S3?
 
@@ -109,7 +117,9 @@ Compreender como a AWS organiza recursos dentro de redes privadas e seguras.
 ### 🛠️ O que foi feito
 
 - Criação de uma VPC com nome relacionado ao projeto
-- Análise dos componentes básicos da VPC
+- Exploração das configurações de VPC
+- Visualização de sub-redes, tabelas de rotas e gateways
+- Análise conceitual de isolamento e controle de tráfego
 
 ### 🔗 Relação com o projeto
 
@@ -157,41 +167,108 @@ No contexto da Cafeteria Carioca:
 
 ---
 
-## 📊 Fase 4 — Auditoria e Monitoramento (Visão conceitual)
+## 🟣 Fase 4 — Computação com Amazon EC2
 
-![CloudTrail](https://img.shields.io/badge/Service-CloudTrail-lightgrey?logo=amazonaws)
+![Amazon EC2](https://img.shields.io/badge/Service-Amazon%20EC2-purple?logo=amazonaws)
 
 ### 🎯 Objetivo
 
-Compreender como ações na AWS podem ser monitoradas e auditadas.
+Compreender o conceito de servidores virtuais na AWS e como aplicações podem ser executadas em ambientes computacionais sob demanda.
 
 ### 🔧 Serviço explorado
 
-- AWS CloudTrail (conceitual)
+- Amazon EC2 (Elastic Compute Cloud)
 
-### 📘 Aplicação prática
+### 🛠️ O que foi feito
 
-- Registro de acessos ao S3
-- Auditoria de mudanças no ambiente
-- Suporte a requisitos de segurança
+- Criação de uma instância EC2 com nome relacionado ao projeto
+- Análise das opções de configuração da instância
+- Visualização do estado de execução da instância
+- Exploração do conceito de acesso e gerenciamento da EC2
+
+### 🔗 Relação com o projeto
+
+Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
+
+- Hospedar um backend dinâmico
+- Servir aplicações que não sejam estáticas
+- Integrar com banco de dados e outros serviços AWS
 
 ### 📸 Evidências
 
-[INSERIR PRINTS DE TELAS RELACIONADAS]
+[INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO]
+
+---
+
+## 📊 Fase 5 — Auditoria e Monitoramento (Visão conceitual)
+
+![CloudTrail](https://img.shields.io/badge/Service-CloudTrail-lightgrey?logo=amazonaws)
+![CloudWatch](https://img.shields.io/badge/Service-CloudWatch-lightgrey?logo=amazonaws)
+
+### 🎯 Objetivo
+
+Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoramento de recursos e ações executadas no ambiente.
+
+### 🔧 Serviços explorados
+
+- AWS CloudTrail (auditoria)
+- Amazon CloudWatch (monitoramento)
+
+### 📘 Conceitos abordados
+
+- Registro de ações realizadas na conta AWS
+- Auditoria de acessos e alterações em recursos
+- Monitoramento de métricas e eventos
+- Importância da observabilidade em ambientes de produção
+
+> ⚠️ Observação: devido às restrições do ambiente de laboratório, alguns recursos do CloudWatch não puderam ser utilizados plenamente. Ainda assim, o serviço foi explorado de forma conceitual.
+
+### 📸 Evidências
+
+[INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH]
+
+---
+## 🧭 Fase 6 — Exploração de Serviços AWS (Explore)
+
+### 🎯 Objetivo
+
+Explorar outros serviços disponíveis na AWS, compreendendo seus propósitos e como poderiam ser utilizados em uma arquitetura real.
+
+### 🔍 Serviços visualizados
+
+- AWS IAM (estrutura de usuários e grupos)
+- Amazon RDS e Aurora
+- Amazon DynamoDB
+- Amazon SageMaker
+- Amazon Bedrock
+- AWS CloudShell (visualização com restrições)
+
+### 📘 Abordagem
+
+Nesta fase, os serviços foram explorados de forma investigativa e conceitual, com foco em:
+
+- Entender o papel de cada serviço
+- Relacionar os serviços com possíveis evoluções do projeto
+- Reconhecer limitações do ambiente acadêmico
+
+### 📸 Evidências
+
+[INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS]
 
 ---
 
 ## 🚀 Possíveis evoluções do projeto
 
-Este projeto pode evoluir para uma arquitetura mais completa, incluindo:
+Este projeto representa uma base conceitual e prática para uma arquitetura em nuvem mais completa. A partir do que foi explorado nos laboratórios, seriam evoluções naturais:
 
-- Amazon EC2 para backend dinâmico
-- Amazon RDS para banco de dados
+- Amazon EC2 para backend dinâmico da aplicação
+- Amazon RDS ou DynamoDB para persistência de dados
 - Elastic Load Balancer para alta disponibilidade
-- AWS CLI para automação de deploy
-- Amazon CloudFront para CDN
+- AWS CLI para automação de criação e gerenciamento de recursos
+- Amazon CloudFront para distribuição de conteúdo (CDN)
 
-Essas evoluções não foram implementadas devido às limitações do laboratório, mas fazem parte da visão arquitetural do projeto.
+Alguns desses serviços foram visualizados de forma exploratória ou conceitual durante os laboratórios.  
+Outros não puderam ser implementados devido às **limitações de tempo, permissões e natureza temporária do ambiente de laboratório**, mas fazem parte da visão arquitetural do projeto.
 
 ---
 
@@ -210,9 +287,9 @@ Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud comp
 
 ## ✍️ Autora
 
-**Marcinha**  
+**Marcia Moreira**  
 Desenvolvedora Web  
-Projeto desenvolvido para estudos em Cloud Computing / AWS
+Projeto desenvolvido para estudos em Cloud Computing / AWS e Escola da Núvem
 
 cafeteria-carioca-aws/
 │
