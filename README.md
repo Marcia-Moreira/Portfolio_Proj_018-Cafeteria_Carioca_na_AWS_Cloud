@@ -140,8 +140,8 @@ Em um cenário real, a VPC seria utilizada para:
 [INSERIR PRINT DA VPC CRIADA]
 
 <p align="center">
-  <img src="prints/fase-2-vpc/000-gateway_associado.png" width="50%">
-  <img src="prints/fase-2-vpc/000-gateway_criacao_e_associacao_vpc.png" width="50%">
+  <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%">
+  <img src="prints/fase-2-vpc/000-gateway_criacao_e_associacao_vpc.png" width="40%">
 </p>
 
 ---
@@ -176,8 +176,8 @@ No contexto da Cafeteria Carioca:
 
 [INSERIR PRINTS DO IAM]
 <p align="center">
-  <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="50%">
-  <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="50%">
+  <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%">
+  <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="40%">
 </p>
 ---
 
@@ -212,9 +212,9 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 
 [INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO]
 <p align="center">
-  <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="50%">
-  <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="50%">
-  <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_3.png" width="50%">
+  <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%">
+  <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="40%">
+  <img src="prints/fase-4-ec2/003-instancia_ec2-criada.png" width="40%">
 </p>
 
 ---
@@ -246,8 +246,8 @@ Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoram
 
 [INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH]
 <p align="center">
-  <img src="prints/fase-5-monitoring/001-cloudtrail_historico_eventos.png" width="50%">
-  <img src="prints/fase-5-monitoring/002-habilitar_security_hub.png" width="50%">
+  <img src="prints/fase-5-monitoring/001-cloudtrail_historico_eventos.png" width="40%">
+  <img src="prints/fase-5-monitoring/002-habilitar_security_hub.png" width="40%">
 </p>
 
 ---
@@ -278,11 +278,11 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 
 [INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS]
 <p align="center">
-  <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="50%">
-  <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="50%">
-  <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="50%">
-  <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="50%">
-  <img src="prints/fase-6-explore/005-amazon_bedrok_agentcore.png" width="50%">
+  <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%">
+  <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="40%">
+  <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%">
+  <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="40%">
+  <img src="prints/fase-6-explore/005-amazon_bedrok_agentcore.png" width="40%">
 </p>
 
 ---
