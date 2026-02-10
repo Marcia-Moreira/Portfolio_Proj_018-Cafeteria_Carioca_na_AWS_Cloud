@@ -67,15 +67,24 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 [INSERIR PRINT DO BUCKET AQUI]
 <p align="center">
-  <img src="prints/fase-1-s3/001-bucket-criando.png" width="50%">
-  <img src="prints/fase-1-s3/002-bucket-criado.png" width="50%">
-  <img src="prints/fase-1-s3/003-bucket-explore.png" width="50%">
-  <img src="prints/fase-1-s3/004-bucket-carregar_objetos.png" width="50%">
-  <img src="prints/fase-1-s3/005-bucket-objetos_upload_andamento.png" width="50%">
-  <img src="prints/fase-1-s3/006-bucket-objetos_upload_concluido.png" width="50%">
-  <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="50%">
-  <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="50%">
-  <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="50%">
+  <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%">
+  <img src="prints/fase-1-s3/002-bucket-criado.png" width="40%">
+</p>
+---
+<p align="center">
+  <img src="prints/fase-1-s3/003-bucket-explore.png" width="40%">
+  <img src="prints/fase-1-s3/004-bucket-carregar_objetos.png" width="40%">
+</p>
+---
+<p align="center">
+  <img src="prints/fase-1-s3/005-bucket-objetos_upload_andamento.png" width="40%">
+  <img src="prints/fase-1-s3/006-bucket-objetos_upload_concluido.png" width="40%">
+</p>
+---
+<p align="center">
+  <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
+  <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
+  <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="40%">
 </p>
 
 **Configuração de Static Website Hosting**
@@ -94,7 +103,7 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
 </p>
-
+---
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_02.gif" width="70%">
 </p>
@@ -138,7 +147,6 @@ Em um cenário real, a VPC seria utilizada para:
 ### 📸 Evidências
 
 [INSERIR PRINT DA VPC CRIADA]
-
 <p align="center">
   <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%">
   <img src="prints/fase-2-vpc/000-gateway_criacao_e_associacao_vpc.png" width="40%">
@@ -280,6 +288,9 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 <p align="center">
   <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%">
   <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="40%">
+</p>
+---
+<p align="center">
   <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%">
   <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="40%">
   <img src="prints/fase-6-explore/005-amazon_bedrok_agentcore.png" width="40%">
