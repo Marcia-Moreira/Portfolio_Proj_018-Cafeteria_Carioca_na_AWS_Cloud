@@ -91,6 +91,9 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <p align="center">
   <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
   <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
+
+  ---
+  
   <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="40%">
 </p>
 
@@ -232,6 +235,9 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 <p align="center">
   <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%">
   <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="40%">
+
+  ---
+
   <img src="prints/fase-4-ec2/003-instancia_ec2-criada.png" width="40%">
 </p>
 
@@ -306,6 +312,9 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 <p align="center">
   <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%">
   <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="40%">
+
+  ---
+
   <img src="prints/fase-6-explore/005-amazon_bedrok_agentcore.png" width="40%">
 </p>
 
@@ -361,9 +370,5 @@ cafeteria-carioca-aws/
 │
 └── gifs/
     └── s3-site-demo.gif
-
--
-
---
 
 ---
