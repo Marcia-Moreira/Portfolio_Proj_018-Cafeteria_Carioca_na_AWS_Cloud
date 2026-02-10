@@ -25,6 +25,7 @@ Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteri
 > Esta versão permanente representa o mesmo site utilizado nos laboratórios da AWS (Amazon S3 – Static Website Hosting).
 >
 > Este repositório tem como objetivo **documentar o uso de serviços da AWS em ambiente de laboratório**, por meio de prints, evidências e explicações técnicas, não sendo responsável pelo versionamento do código do front-end.
+
 ---
 
 ## 📌 Visão geral do projeto
@@ -70,17 +71,23 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
   <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%">
   <img src="prints/fase-1-s3/002-bucket-criado.png" width="40%">
 </p>
+
 ---
+
 <p align="center">
   <img src="prints/fase-1-s3/003-bucket-explore.png" width="40%">
   <img src="prints/fase-1-s3/004-bucket-carregar_objetos.png" width="40%">
 </p>
+
 ---
+
 <p align="center">
   <img src="prints/fase-1-s3/005-bucket-objetos_upload_andamento.png" width="40%">
   <img src="prints/fase-1-s3/006-bucket-objetos_upload_concluido.png" width="40%">
 </p>
+
 ---
+
 <p align="center">
   <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
   <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
@@ -103,7 +110,9 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
 </p>
+
 ---
+
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_02.gif" width="70%">
 </p>
@@ -187,6 +196,7 @@ No contexto da Cafeteria Carioca:
   <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%">
   <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="40%">
 </p>
+
 ---
 
 ## 🟣 Fase 4 — Computação com Amazon EC2
@@ -259,6 +269,7 @@ Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoram
 </p>
 
 ---
+
 ## 🧭 Fase 6 — Exploração de Serviços AWS (Explore)
 
 ### 🎯 Objetivo
@@ -289,7 +300,9 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
   <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%">
   <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="40%">
 </p>
+
 ---
+
 <p align="center">
   <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%">
   <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="40%">
@@ -348,3 +361,9 @@ cafeteria-carioca-aws/
 │
 └── gifs/
     └── s3-site-demo.gif
+
+-
+
+--
+
+---
