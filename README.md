@@ -2,11 +2,19 @@
 
 Portfolio_Proj_018-Cafeteria_Carioca_na_AWS_Cloud
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
-![Amazon S3](https://img.shields.io/badge/Amazon%20S3-Storage-green?logo=amazons3)
-![VPC](https://img.shields.io/badge/Amazon%20VPC-Network-blue?logo=amazonaws)
-![IAM](https://img.shields.io/badge/IAM-Security-red?logo=amazonaws)
-![Status](https://img.shields.io/badge/Status-Estudo%20Acadêmico-lightgrey)
+<!-- ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws) -->
+<!-- ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-Storage-green?logo=amazons3) -->
+<!-- ![VPC](https://img.shields.io/badge/Amazon%20VPC-Network-blue?logo=amazonaws) -->
+<!-- ![IAM](https://img.shields.io/badge/IAM-Security-red?logo=amazonaws) -->
+<!-- ![Status](https://img.shields.io/badge/Status-Estudo%20Acadêmico-lightgrey) -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws" /> &nbsp;
+  <img src="https://img.shields.io/badge/Amazon%20S3-Storage-green?logo=amazons3" /> &nbsp;
+  <img src="https://img.shields.io/badge/Amazon%20VPC-Network-blue?logo=amazonaws" /> &nbsp;
+  <img src="https://img.shields.io/badge/IAM-Security-red?logo=amazonaws" /> &nbsp;
+  <img src="https://img.shields.io/badge/Status-Estudo%20Acadêmico-lightgrey" />
+</p>
 
 Projeto acadêmico com foco em **Cloud Computing**, demonstrando a hospedagem de um site institucional estático na AWS e a exploração de serviços fundamentais da nuvem, usando como estudo de caso o site da **Cafeteria Carioca**.
 
@@ -16,13 +24,11 @@ Projeto acadêmico com foco em **Cloud Computing**, demonstrando a hospedagem de
 
 Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteria Carioca** também está disponível em uma versão permanente publicada via **GitHub Pages**.
 
-🔗 **Site online (GitHub Pages):**
+<!-- 🔗 **Site online (GitHub Pages):** -->
+🌍 [Site online da Cafeteria Carioca no GitHub Pages](https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/)
 
-![Site Cafeteria Carioca](https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/)
-
-🔗 **Repositório do front-end (código-fonte):**
-
-![Repositório do Site no GitHub](https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca)
+<!-- 🔗 **Repositório do front-end (código-fonte):** -->
+💻 [Repositório do código-fonte do Site no GitHub](https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca)
 
 > Esta versão permanente representa o mesmo site utilizado nos laboratórios da AWS (Amazon S3 – Static Website Hosting).
 >
@@ -70,21 +76,21 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <!-- [INSERIR PRINT DO BUCKET AQUI] -->
 <h4 align="center"> - Bucket S3 criado - </h4>
 <p align="center">
-  <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%">
+  <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%"> &nbsp;
   <img src="prints/fase-1-s3/002-bucket-criado.png" width="40%">
 </p>
 
 ---
 
 <p align="center">
-  <img src="prints/fase-1-s3/003-bucket-explore.png" width="40%">
+  <img src="prints/fase-1-s3/003-bucket-explore.png" width="40%"> &nbsp;
   <img src="prints/fase-1-s3/004-bucket-carregar_objetos.png" width="40%">
 </p>
 
 ---
 
 <p align="center">
-  <img src="prints/fase-1-s3/005-bucket-objetos_upload_andamento.png" width="40%">
+  <img src="prints/fase-1-s3/005-bucket-objetos_upload_andamento.png" width="40%"> &nbsp;
   <img src="prints/fase-1-s3/006-bucket-objetos_upload_concluido.png" width="40%">
 </p>
 
@@ -94,7 +100,7 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <!-- [INSERIR PRINT DA CONFIGURAÇÃO AQUI] -->
 <h4 align="center"> - Configuração de Static Website Hosting - </h4>
 <p align="center">
-  <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
+  <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%"> &nbsp;
   <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
 </p>
 
@@ -164,7 +170,7 @@ Em um cenário real, a VPC seria utilizada para:
 <h4 align="center"> - Imagens da VPC criada - </h4>
 <!-- Falta Colocar um Monte de Imagens pois não organizei a ordem ainda!!! -->
 <p align="center">
-  <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%">
+  <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%"> &nbsp;
   <img src="prints/fase-2-vpc/000-gateway_criacao_e_associacao_vpc.png" width="40%">
 </p>
 
@@ -200,7 +206,7 @@ No contexto da Cafeteria Carioca:
 <!-- [INSERIR PRINTS DO IAM] -->
 <h4 align="center"> - Imagens do IAM e Grupos de Usuários - </h4>
 <p align="center">
-  <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%">
+  <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%"> &nbsp;
   <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="40%">
 </p>
 
@@ -237,7 +243,7 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 <!-- [INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO] -->
 <h4 align="center"> - Imagens da Instância EC2 criada e em execução - </h4>
 <p align="center">
-  <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%">
+  <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%"> &nbsp;
   <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="40%">
 </p>
 
@@ -276,7 +282,7 @@ Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoram
 <!-- [INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH] -->
 <h4 align="center"> - Imagens do CloudTrail e do CloudWatch - </h4>
 <p align="center">
-  <img src="prints/fase-5-monitoring/001-cloudtrail_historico_eventos.png" width="40%">
+  <img src="prints/fase-5-monitoring/001-cloudtrail_historico_eventos.png" width="40%"> &nbsp;
   <img src="prints/fase-5-monitoring/002-habilitar_security_hub.png" width="40%">
 </p>
 
@@ -309,14 +315,14 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 <!-- [INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS] -->
 <h4 align="center"> - Telas de exploração de serviços - </h4>
 <p align="center">
-  <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%">
+  <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%"> &nbsp;
   <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="40%">
 </p>
 
 ---
 
 <p align="center">
-  <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%">
+  <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%"> &nbsp;
   <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="40%">
 </p>
 
@@ -369,14 +375,14 @@ Os testes e validações foram realizados em ambientes de laboratório temporár
 ## 🎓 Formação e aprendizado em Cloud Computing
 
 <p align="center">
-  <img src="prints/logos/aws-cloud.png" width="10%">
-  <!-- <img src="prints/logos/aws-restart.png" width="10%"> -->
-  <!-- <img src="prints/logos/badge-aws-certified-cloud-practitioner.png" width="10%"> -->
-  <!-- <img src="prints/logos/EdaN-bluejpeg.jpeg" width="10%"> -->
-  <!-- <img src="prints/logos/logo-aws-restart-graduate.jpeg" width="10%"> -->
-  <img src="prints/logos/logo-aws-restart-white.jpeg" width="10%">
-  <!-- <img src="prints/logos/logo-aws-restart.jpeg" width="10%"> -->
-  <img src="prints/logos/logo-EdaN.png" width="10%">
+  <img src="prints/logos/aws-cloud.png" width="15%"> &nbsp;
+  <!-- <img src="prints/logos/aws-restart.png" width="10%">&nbsp; -->
+  <!-- <img src="prints/logos/badge-aws-certified-cloud-practitioner.png" width="10%">&nbsp; -->
+  <!-- <img src="prints/logos/EdaN-bluejpeg.jpeg" width="10%">&nbsp; -->
+  <!-- <img src="prints/logos/logo-aws-restart-graduate.jpeg" width="10%">&nbsp; -->
+  <img src="prints/logos/logo-aws-restart-white.jpeg" width="20%"> &nbsp;
+  <!-- <img src="prints/logos/logo-aws-restart.jpeg" width="10%">&nbsp; -->
+  <img src="prints/logos/logo-EdaN.png" width="12%">
 </p>
 
 Bootcamp AWS re/Start: AWS-Amazon Web Service e EdaN-Escola da Núvem  (de 11-2025 à 03-2026)
@@ -391,15 +397,15 @@ O conteúdo e as atividades realizadas estão alinhados aos tópicos cobrados na
 
 ## ✍️ Autoria
 
-Projeto desenvolvido por **Marcia Moreira**
+Projeto desenvolvido por ***Marcia Moreira***
 
-*Desenvolvimento Web e estudos em Cloud Computing*
+Desenvolvimento Web e Cloud Computing
 
 <div style="display: inline_block">
     <!-- WhatsApp -->
-    <a href="https://wa.me/5511977219430" alt="Meu_WhatsApp" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">WhatsApp - *+55 11 97721-9430*</a> &nbsp;
+    <a href="https://wa.me/5511977219430" alt="Meu_WhatsApp" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a> &nbsp;
     <!-- Linkedin -->
-    <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> &nbsp;
+    <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 </div>
 
 ---
