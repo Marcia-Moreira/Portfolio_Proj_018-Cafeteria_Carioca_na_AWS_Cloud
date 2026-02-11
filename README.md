@@ -17,9 +17,11 @@ Projeto acadêmico com foco em **Cloud Computing**, demonstrando a hospedagem de
 Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteria Carioca** também está disponível em uma versão permanente publicada via **GitHub Pages**.
 
 🔗 **Site online (GitHub Pages):**
+
 [https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/]
 
 🔗 **Repositório do front-end (código-fonte):**
+
 [https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca]
 
 > Esta versão permanente representa o mesmo site utilizado nos laboratórios da AWS (Amazon S3 – Static Website Hosting).
@@ -91,9 +93,11 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <p align="center">
   <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
   <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
+</p>
 
-  ---
-  
+---
+
+<p align="center">
   <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="40%">
 </p>
 
@@ -235,9 +239,11 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 <p align="center">
   <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%">
   <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="40%">
+</p>
 
-  ---
+---
 
+<p align="center">
   <img src="prints/fase-4-ec2/003-instancia_ec2-criada.png" width="40%">
 </p>
 
@@ -312,9 +318,11 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 <p align="center">
   <img src="prints/fase-6-explore/003-db-dynamodb_tabelas.png" width="40%">
   <img src="prints/fase-6-explore/004-amazon_sagemaker.png" width="40%">
+</p>
 
-  ---
+---
 
+<p align="center">
   <img src="prints/fase-6-explore/005-amazon_bedrok_agentcore.png" width="40%">
 </p>
 
@@ -345,6 +353,25 @@ O projeto **Cafeteria Carioca na AWS** demonstra:
 - Capacidade de adaptação a ambientes temporários
 
 Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud computing.
+
+---
+
+## Registros da Construção 🧱:
+
+- Desenvolvimento Web => *Marcia Moreira*
+- Iniciado => 04/02/2026
+- Finalizado Primeiro Deploy => 04/02/2026
+- Atualização do Projeto => 10/02/2026
+- WhatsApp => *+55 11 97721-9430*
+
+<div style="display: inline_block">
+    <!-- WhatsApp -->
+    <a href="https://wa.me/5511977219430" alt="Meu_WhatsApp" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a> &nbsp;
+    <!-- Linkedin -->
+    <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> &nbsp;
+</div>
+
+##
 
 ---
 
