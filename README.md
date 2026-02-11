@@ -18,11 +18,11 @@ Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteri
 
 🔗 **Site online (GitHub Pages):**
 
-(https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/)
+![Site Cafeteria Carioca](https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/)
 
 🔗 **Repositório do front-end (código-fonte):**
 
-[https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca]
+![Repositório do Site no GitHub](https://github.com/Marcia-Moreira/Portfolio_Proj_010-Site_Cafeteria_Carioca)
 
 > Esta versão permanente representa o mesmo site utilizado nos laboratórios da AWS (Amazon S3 – Static Website Hosting).
 >
@@ -70,8 +70,6 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 <!-- [INSERIR PRINT DO BUCKET AQUI] -->
 <h4 align="center"> - Bucket S3 criado - </h4>
 <p align="center">
-  <h4> - Bucket S3 criado - </h4>
-  <h3> - Bucket S3 criado - </h3>
   <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%">
   <img src="prints/fase-1-s3/002-bucket-criado.png" width="40%">
 </p>
@@ -113,7 +111,7 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 <!-- **Demonstração em vídeo / GIF** -->
 <!-- [INSERIR GIF OU LINK PARA VÍDEO] -->
-<h4 align="center"> - Demonstração em vídeo / GIF - </h4>
+<h4 align="center"> - Demonstração do Site em vídeo / GIF - </h4>
 <!-- ![Demonstração do site estático no S3](gifs/s3-site-demo_cafeteria_carioca_01.gif) -->
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
@@ -161,9 +159,9 @@ Em um cenário real, a VPC seria utilizada para:
 - Isolar banco de dados
 - Controlar tráfego de entrada e saída
 
-### 📸 Evidências -> Imagens da VPC criada
+### 📸 Evidências das VPC
 <!-- [INSERIR PRINT DA VPC CRIADA] -->
-<h4 align="center"> - REVER VPC - </h4>
+<h4 align="center"> - Imagens da VPC criada - </h4>
 <!-- Falta Colocar um Monte de Imagens pois não organizei a ordem ainda!!! -->
 <p align="center">
   <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%">
@@ -198,9 +196,9 @@ No contexto da Cafeteria Carioca:
 - Permissões seriam separadas por função
 - Recursos críticos seriam protegidos
 
-### 📸 Evidências -> Imagens do IAM
+### 📸 Evidências do IAM
 <!-- [INSERIR PRINTS DO IAM] -->
-<h4 align="center"> - Imagens do IAM - </h4>
+<h4 align="center"> - Imagens do IAM e Grupos de Usuários - </h4>
 <p align="center">
   <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%">
   <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="40%">
@@ -235,7 +233,7 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 - Servir aplicações que não sejam estáticas
 - Integrar com banco de dados e outros serviços AWS
 
-### 📸 Evidências -> Imagens da Instância EC2 criada e em execução
+### 📸 Evidências da Instância EC2
 <!-- [INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO] -->
 <h4 align="center"> - Imagens da Instância EC2 criada e em execução - </h4>
 <p align="center">
@@ -274,7 +272,7 @@ Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoram
 
 > ⚠️ Observação: devido às restrições do ambiente de laboratório, alguns recursos do CloudWatch não puderam ser utilizados plenamente. Ainda assim, o serviço foi explorado de forma conceitual.
 
-### 📸 Evidências -> Imagens do CloudTrail e do CloudWatch
+### 📸 Evidências do CloudTrail e do CloudWatch
 <!-- [INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH] -->
 <h4 align="center"> - Imagens do CloudTrail e do CloudWatch - </h4>
 <p align="center">
@@ -307,7 +305,7 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 - Relacionar os serviços com possíveis evoluções do projeto
 - Reconhecer limitações do ambiente acadêmico
 
-### 📸 Evidências -> Imagens de telas de exploração de serviços
+### 📸 Evidências de exploração de serviços
 <!-- [INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS] -->
 <h4 align="center"> - Telas de exploração de serviços - </h4>
 <p align="center">
@@ -371,14 +369,14 @@ Os testes e validações foram realizados em ambientes de laboratório temporár
 ## 🎓 Formação e aprendizado em Cloud Computing
 
 <p align="center">
-  <img src="prints/logos/aws-cloud.png" width="30%">
-  <img src="prints/logos/aws-restart.png" width="30%">
-  <img src="prints/logos/badge-aws-certified-cloud-practitioner.png" width="30%">
-  <img src="prints/logos/EdaN-bluejpeg.jpeg" width="30%">
-  <img src="prints/logos/logo-aws-restart-graduate.jpeg" width="30%">
-  <img src="prints/logos/logo-aws-restart-white.jpeg" width="30%">
-  <img src="prints/logos/logo-aws-restart.jpeg" width="30%">
-  <img src="prints/logos/logo-EdaN.png" width="30%">
+  <img src="prints/logos/aws-cloud.png" width="10%">
+  <!-- <img src="prints/logos/aws-restart.png" width="10%"> -->
+  <!-- <img src="prints/logos/badge-aws-certified-cloud-practitioner.png" width="10%"> -->
+  <!-- <img src="prints/logos/EdaN-bluejpeg.jpeg" width="10%"> -->
+  <!-- <img src="prints/logos/logo-aws-restart-graduate.jpeg" width="10%"> -->
+  <img src="prints/logos/logo-aws-restart-white.jpeg" width="10%">
+  <!-- <img src="prints/logos/logo-aws-restart.jpeg" width="10%"> -->
+  <img src="prints/logos/logo-EdaN.png" width="10%">
 </p>
 
 Bootcamp AWS re/Start: AWS-Amazon Web Service e EdaN-Escola da Núvem  (de 11-2025 à 03-2026)
@@ -394,23 +392,14 @@ O conteúdo e as atividades realizadas estão alinhados aos tópicos cobrados na
 ## ✍️ Autoria
 
 Projeto desenvolvido por **Marcia Moreira**
-Desenvolvimento Web e estudos em Cloud Computing
 
-WhatsApp - *+55 11 97721-9430*
+*Desenvolvimento Web e estudos em Cloud Computing*
 
 <div style="display: inline_block">
     <!-- WhatsApp -->
-    <a href="https://wa.me/5511977219430" alt="Meu_WhatsApp" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a> &nbsp;
+    <a href="https://wa.me/5511977219430" alt="Meu_WhatsApp" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">WhatsApp - *+55 11 97721-9430*</a> &nbsp;
     <!-- Linkedin -->
     <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> &nbsp;
 </div>
-
-<div style="display: inline_block"> <a href="https://wa.me/5511977219430" target="_blank"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> </a>&nbsp; <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> </a> </div>
-
----
-
-<p align="center">
-  <img src="prints/readme-assets/estrutura-repositorio.png" width="50%">
-</p>
 
 ---
