@@ -18,7 +18,7 @@ Como os ambientes de laboratório da AWS são temporários, o site da **Cafeteri
 
 🔗 **Site online (GitHub Pages):**
 
-[https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/]
+(https://marcia-moreira.github.io/Portfolio_Proj_010-Site_Cafeteria_Carioca/)
 
 🔗 **Repositório do front-end (código-fonte):**
 
@@ -67,8 +67,7 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 ### 📸 Evidências
 
 **Bucket S3 criado**
-
-[INSERIR PRINT DO BUCKET AQUI]
+<!-- [INSERIR PRINT DO BUCKET AQUI] -->
 <p align="center">
   <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%">
   <img src="prints/fase-1-s3/002-bucket-criado.png" width="40%">
@@ -90,6 +89,8 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 ---
 
+**Configuração de Static Website Hosting**
+<!-- [INSERIR PRINT DA CONFIGURAÇÃO AQUI] -->
 <p align="center">
   <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
   <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
@@ -97,23 +98,17 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 ---
 
+**Site funcionando via URL do S3**
+<!-- [INSERIR PRINT DO SITE NO NAVEGADOR] -->
 <p align="center">
-  <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="40%">
+  <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="70%">
 </p>
 
-**Configuração de Static Website Hosting**
-
-[INSERIR PRINT DA CONFIGURAÇÃO AQUI]
-
-**Site funcionando via URL do S3**
-
-[INSERIR PRINT DO SITE NO NAVEGADOR]
+---
 
 **Demonstração em vídeo / GIF**
-
 <!-- [INSERIR GIF OU LINK PARA VÍDEO] -->
 <!-- ![Demonstração do site estático no S3](gifs/s3-site-demo_cafeteria_carioca_01.gif) -->
-
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
 </p>
@@ -160,9 +155,9 @@ Em um cenário real, a VPC seria utilizada para:
 - Isolar banco de dados
 - Controlar tráfego de entrada e saída
 
-### 📸 Evidências
-
-[INSERIR PRINT DA VPC CRIADA]
+### 📸 Evidências -> Imagens da VPC criada
+<!-- [INSERIR PRINT DA VPC CRIADA] -->
+<!-- Falta Colocar um Monte de Imagens pois não organizei a ordem ainda!!! -->
 <p align="center">
   <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%">
   <img src="prints/fase-2-vpc/000-gateway_criacao_e_associacao_vpc.png" width="40%">
@@ -196,9 +191,8 @@ No contexto da Cafeteria Carioca:
 - Permissões seriam separadas por função
 - Recursos críticos seriam protegidos
 
-### 📸 Evidências
-
-[INSERIR PRINTS DO IAM]
+### 📸 Evidências -> Imagens do IAM
+<!-- [INSERIR PRINTS DO IAM] -->
 <p align="center">
   <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%">
   <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="40%">
@@ -233,9 +227,8 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 - Servir aplicações que não sejam estáticas
 - Integrar com banco de dados e outros serviços AWS
 
-### 📸 Evidências
-
-[INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO]
+### 📸 Evidências -> Imagens da Instância EC2 criada e em execução
+<!-- [INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO] -->
 <p align="center">
   <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%">
   <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="40%">
@@ -272,9 +265,8 @@ Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoram
 
 > ⚠️ Observação: devido às restrições do ambiente de laboratório, alguns recursos do CloudWatch não puderam ser utilizados plenamente. Ainda assim, o serviço foi explorado de forma conceitual.
 
-### 📸 Evidências
-
-[INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH]
+### 📸 Evidências -> Imagens do CloudTrail e do CloudWatch
+<!-- [INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH] -->
 <p align="center">
   <img src="prints/fase-5-monitoring/001-cloudtrail_historico_eventos.png" width="40%">
   <img src="prints/fase-5-monitoring/002-habilitar_security_hub.png" width="40%">
@@ -305,9 +297,8 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 - Relacionar os serviços com possíveis evoluções do projeto
 - Reconhecer limitações do ambiente acadêmico
 
-### 📸 Evidências
-
-[INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS]
+### 📸 Evidências -> Imagens de telas de exploração de serviços
+<!-- [INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS] -->
 <p align="center">
   <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%">
   <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="40%">
@@ -345,7 +336,7 @@ Outros não puderam ser implementados devido às **limitações de tempo, permis
 
 ## 📚 Conclusão
 
-O projeto **Cafeteria Carioca na AWS** demonstra:
+O projeto **Cafeteria Carioca na AWS Cloud** demonstra:
 
 - Hospedagem eficiente de site estático
 - Compreensão de redes e segurança
@@ -356,13 +347,23 @@ Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud comp
 
 ---
 
-## Registros da Construção 🧱:
+## 🧱 Registros da construção do projeto
 
-- Desenvolvimento Web => *Marcia Moreira*
 - Iniciado => 04/02/2026
 - Finalizado Primeiro Deploy => 04/02/2026
 - Atualização do Projeto => 10/02/2026
-- WhatsApp => *+55 11 97721-9430*
+
+Projeto desenvolvido para estudos em Cloud Computing  
+
+Bootcamp AWS re/Start -> AWS-Amazon Web Service e EdaN-Escola da Núvem  
+(11-2025 a 03-2026)  
+
+---
+
+## ✍️ Autoria
+
+- Desenvolvimento Web - **Marcia Moreira**
+- WhatsApp - *+55 11 97721-9430*
 
 <div style="display: inline_block">
     <!-- WhatsApp -->
@@ -371,19 +372,13 @@ Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud comp
     <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> &nbsp;
 </div>
 
-##
-
 ---
-
-## ✍️ Autora
-
-**Marcia Moreira**  
-Desenvolvedora Web  
-Projeto desenvolvido para estudos em Cloud Computing / AWS e Escola da Núvem
 
 <p align="center">
   <img src="prints/readme-assets/estrutura-repositorio.png" width="50%">
 </p>
+
+---
 
 cafeteria-carioca-aws/
 │
