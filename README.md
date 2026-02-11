@@ -64,11 +64,14 @@ Hospedar o site institucional da Cafeteria Carioca de forma simples, escalável 
 
 O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
-### 📸 Evidências
+### 📸 Evidências do S3 funcionando
 
-**Bucket S3 criado**
+<!-- **Bucket S3 criado** -->
 <!-- [INSERIR PRINT DO BUCKET AQUI] -->
+<h4 align="center"> - Bucket S3 criado - </h4>
 <p align="center">
+  <h4> - Bucket S3 criado - </h4>
+  <h3> - Bucket S3 criado - </h3>
   <img src="prints/fase-1-s3/001-bucket-criando.png" width="40%">
   <img src="prints/fase-1-s3/002-bucket-criado.png" width="40%">
 </p>
@@ -89,8 +92,9 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 ---
 
-**Configuração de Static Website Hosting**
+<!-- **Configuração de Static Website Hosting** -->
 <!-- [INSERIR PRINT DA CONFIGURAÇÃO AQUI] -->
+<h4 align="center"> - Configuração de Static Website Hosting - </h4>
 <p align="center">
   <img src="prints/fase-1-s3/007-bucket-edicao_hospedagem_site_estatico.png" width="40%">
   <img src="prints/fase-1-s3/008-bucket-politica_editada.png" width="40%">
@@ -98,16 +102,18 @@ O site ficou acessível diretamente pelo endpoint de site estático do S3.
 
 ---
 
-**Site funcionando via URL do S3**
+<!-- **Site funcionando via URL do S3** -->
 <!-- [INSERIR PRINT DO SITE NO NAVEGADOR] -->
+<h4 align="center"> - Site funcionando via URL do S3 - </h4>
 <p align="center">
   <img src="prints/fase-1-s3/009-navegador-site_statico_cafeteria_rodando.png" width="70%">
 </p>
 
 ---
 
-**Demonstração em vídeo / GIF**
+<!-- **Demonstração em vídeo / GIF** -->
 <!-- [INSERIR GIF OU LINK PARA VÍDEO] -->
+<h4 align="center"> - Demonstração em vídeo / GIF - </h4>
 <!-- ![Demonstração do site estático no S3](gifs/s3-site-demo_cafeteria_carioca_01.gif) -->
 <p align="center">
   <img src="gifs/s3-site-demo_cafeteria_carioca_01.gif" width="70%">
@@ -157,6 +163,7 @@ Em um cenário real, a VPC seria utilizada para:
 
 ### 📸 Evidências -> Imagens da VPC criada
 <!-- [INSERIR PRINT DA VPC CRIADA] -->
+<h4 align="center"> - REVER VPC - </h4>
 <!-- Falta Colocar um Monte de Imagens pois não organizei a ordem ainda!!! -->
 <p align="center">
   <img src="prints/fase-2-vpc/000-gateway_associado.png" width="40%">
@@ -193,6 +200,7 @@ No contexto da Cafeteria Carioca:
 
 ### 📸 Evidências -> Imagens do IAM
 <!-- [INSERIR PRINTS DO IAM] -->
+<h4 align="center"> - Imagens do IAM - </h4>
 <p align="center">
   <img src="prints/fase-3-iam/001-iam-grupos_de_usuarios_criar.png" width="40%">
   <img src="prints/fase-3-iam/002-iam-grupos_de_usuarios.png" width="40%">
@@ -229,6 +237,7 @@ Em uma evolução do projeto, a instância EC2 poderia ser utilizada para:
 
 ### 📸 Evidências -> Imagens da Instância EC2 criada e em execução
 <!-- [INSERIR PRINTS DA INSTÂNCIA EC2 CRIADA E EM EXECUÇÃO] -->
+<h4 align="center"> - Imagens da Instância EC2 criada e em execução - </h4>
 <p align="center">
   <img src="prints/fase-4-ec2/001-instancia_ec2-execusao_1.png" width="40%">
   <img src="prints/fase-4-ec2/002-instancia_ec2-execusao_2.png" width="40%">
@@ -267,6 +276,7 @@ Entender como a AWS oferece mecanismos de auditoria, rastreabilidade e monitoram
 
 ### 📸 Evidências -> Imagens do CloudTrail e do CloudWatch
 <!-- [INSERIR PRINTS DO CLOUDTRAIL E VISUALIZAÇÃO DO CLOUDWATCH] -->
+<h4 align="center"> - Imagens do CloudTrail e do CloudWatch - </h4>
 <p align="center">
   <img src="prints/fase-5-monitoring/001-cloudtrail_historico_eventos.png" width="40%">
   <img src="prints/fase-5-monitoring/002-habilitar_security_hub.png" width="40%">
@@ -299,6 +309,7 @@ Nesta fase, os serviços foram explorados de forma investigativa e conceitual, c
 
 ### 📸 Evidências -> Imagens de telas de exploração de serviços
 <!-- [INSERIR PRINTS DE TELAS DE EXPLORAÇÃO DE SERVIÇOS] -->
+<h4 align="center"> - Telas de exploração de serviços - </h4>
 <p align="center">
   <img src="prints/fase-6-explore/001-cloudshell-terminal_nao_habilitado.png" width="40%">
   <img src="prints/fase-6-explore/002-db_aurora_and_rds.png" width="40%">
@@ -338,32 +349,54 @@ Outros não puderam ser implementados devido às **limitações de tempo, permis
 
 O projeto **Cafeteria Carioca na AWS Cloud** demonstra:
 
-- Hospedagem eficiente de site estático
-- Compreensão de redes e segurança
+- Hospedagem eficiente de site estático na AWS
+- Compreensão de conceitos básicos de redes e segurança
 - Noções de arquitetura em nuvem
-- Capacidade de adaptação a ambientes temporários
+- Capacidade de adaptação a ambientes temporários de laboratório
 
-Mesmo em um contexto acadêmico, o projeto reflete práticas reais de cloud computing.
+Mesmo desenvolvido em um contexto educacional, o projeto reflete práticas reais de **Cloud Computing**, utilizando serviços e fluxos próximos aos encontrados em ambientes profissionais.
 
 ---
 
-## 🧱 Registros da construção do projeto
+## 🧱 Contexto de desenvolvimento
 
-- Iniciado => 04/02/2026
-- Finalizado Primeiro Deploy => 04/02/2026
-- Atualização do Projeto => 10/02/2026
+- Inicio do projeto: 04/02/2026
+- Primeiro deploy funcional: 05/02/2026
+- Atualizações e refinamentos: 11/02/2026
 
-Projeto desenvolvido para estudos em Cloud Computing  
+Os testes e validações foram realizados em ambientes de laboratório temporários da AWS (VocLabs), que são encerrados automaticamente ao final de cada sessão.
 
-Bootcamp AWS re/Start -> AWS-Amazon Web Service e EdaN-Escola da Núvem  
-(11-2025 a 03-2026)  
+---
+
+## 🎓 Formação e aprendizado em Cloud Computing
+
+<p align="center">
+  <img src="prints/logos/aws-cloud.png" width="30%">
+  <img src="prints/logos/aws-restart.png" width="30%">
+  <img src="prints/logos/badge-aws-certified-cloud-practitioner.png" width="30%">
+  <img src="prints/logos/EdaN-bluejpeg.jpeg" width="30%">
+  <img src="prints/logos/logo-aws-restart-graduate.jpeg" width="30%">
+  <img src="prints/logos/logo-aws-restart-white.jpeg" width="30%">
+  <img src="prints/logos/logo-aws-restart.jpeg" width="30%">
+  <img src="prints/logos/logo-EdaN.png" width="30%">
+</p>
+
+Bootcamp AWS re/Start: AWS-Amazon Web Service e EdaN-Escola da Núvem  (de 11-2025 à 03-2026)
+
+Este projeto foi desenvolvido como parte da minha formação em Computação em Nuvem, com foco nos fundamentos da AWS, arquitetura básica e serviços essenciais.
+
+A experiência prática foi adquirida por meio de laboratórios oficiais da AWS (VocLabs), dentro do programa AWS re/Start, em parceria com a Escola da Nuvem (EdaN).
+
+O conteúdo e as atividades realizadas estão alinhados aos tópicos cobrados na certificação AWS Certified Cloud Practitioner, servindo como base prática para consolidação dos conceitos de nuvem, segurança, armazenamento, computação e monitoramento.
 
 ---
 
 ## ✍️ Autoria
 
-- Desenvolvimento Web - **Marcia Moreira**
-- WhatsApp - *+55 11 97721-9430*
+Projeto desenvolvido por **Marcia Moreira**
+Desenvolvimento Web e estudos em Cloud Computing
+
+WhatsApp - *+55 11 97721-9430*
 
 <div style="display: inline_block">
     <!-- WhatsApp -->
@@ -372,25 +405,12 @@ Bootcamp AWS re/Start -> AWS-Amazon Web Service e EdaN-Escola da Núvem
     <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> &nbsp;
 </div>
 
+<div style="display: inline_block"> <a href="https://wa.me/5511977219430" target="_blank"> <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> </a>&nbsp; <a href="https://www.linkedin.com/in/idmarciamoreira/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"> </a> </div>
+
 ---
 
 <p align="center">
   <img src="prints/readme-assets/estrutura-repositorio.png" width="50%">
 </p>
-
----
-
-cafeteria-carioca-aws/
-│
-├── README.md
-│
-├── prints/
-│   ├── fase-1-s3/
-│   ├── fase-2-vpc/
-│   ├── fase-3-iam/
-│   └── fase-4-monitoring/
-│
-└── gifs/
-    └── s3-site-demo.gif
 
 ---
